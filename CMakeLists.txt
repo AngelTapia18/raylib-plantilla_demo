@@ -1,13 +1,17 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 4.2.1)
 
-set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
-project(MiJuegoRaylib) #Cambiar el nombre del proyecto
+set(CMAKE_POLICY_VERSION_MINIMUM 4.2.1)
+project(MiJuegoRaylib) # Cambiar el nombre del proyecto
+
+# Establece el estandar de C++
+set(CMAKE_CXX_STANDARD 17)
 
 # Comprobacion e instalacion de dependencia raylib
 include(FetchContent)
 FetchContent_Declare(
-  raylib
-  URL https://github.com/raysan5/raylib/archive/refs/tags/5.0.tar.gz
+        raylib
+        GIT_REPOSITORY https://github.com/raysan5/raylib/
+        GIT_TAG c1ab645ca298a2801097931d1079b10ff7eb9df8
 )
 FetchContent_MakeAvailable(raylib)
 

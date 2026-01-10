@@ -4,8 +4,6 @@
 Esta plantilla sirve como base para generar un proyecto utilizando la libreria de raylib
 
 
-
-
 ## Requisitos iniciales
 
 Para poder generar un proyecto de raylib es necesario realizar los siguientes pasos:
@@ -15,12 +13,9 @@ Para poder generar un proyecto de raylib es necesario realizar los siguientes pa
 - Tener las dependencias instaladas
 
 
-
-
-
 ## Documentation
 
-- Instalar CMake (cmake version 4.2.1)
+- Instalar la versión más reciente de CMake (cmake version 4.2.1)
 
 - Ejecutar el script "Configurador_Win.bat" para usuarios windows
 
@@ -29,6 +24,12 @@ Para poder generar un proyecto de raylib es necesario realizar los siguientes pa
 - Al terminar de ejecutar el script, ejecutar el comando siguiente:
 
 ``` bash
+    # Configura el script como ejecutable
+    chmod +x ./Configurador_Lin.sh
+```
+
+``` bash
+    # Genera el proyecto
     cmake --build .
 ```
 
