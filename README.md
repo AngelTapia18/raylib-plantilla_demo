@@ -22,5 +22,18 @@ Para poder generar un proyecto de raylib es necesario realizar los siguientes pa
 
 - Instalar CMake (cmake version 4.2.1)
 
-- 
+- Ejecutar el script "Configurador_Win.bat" para usuarios windows
 
+- Ejecutar el script "Configurador_Lin.sh" para usuarios Linux
+
+- Al terminar de ejecutar el script, ejecutar el comando siguiente:
+
+``` bash
+    cmake --build .
+```
+
+- Para ejecutar el programa, se debe ejecutar el archivo .exe generado con el siguiente comando
+
+``` bash
+    .\Debug\MiJuegoRaylib.exe
+```
