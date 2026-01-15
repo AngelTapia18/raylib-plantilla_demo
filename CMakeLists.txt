@@ -16,7 +16,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 
 # Seleccion de archivo principal del proyecto
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/3DCamaraFPS.cpp)
 
 # Enlazar librerias de raylib al sistema
 target_link_libraries(${PROJECT_NAME} raylib)
