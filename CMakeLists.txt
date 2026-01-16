@@ -15,8 +15,10 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(raylib)
 
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
+
 # Seleccion de archivo principal del proyecto
-add_executable(${PROJECT_NAME} src/3DCamaraFPS.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Enlazar librerias de raylib al sistema
 target_link_libraries(${PROJECT_NAME} raylib)

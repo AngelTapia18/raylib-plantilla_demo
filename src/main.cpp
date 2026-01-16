@@ -17,6 +17,7 @@ int main(void) {
     }
 
     // 4. Desinicialización
+    //Este es un cambio
     CloseWindow();
     return 0;
 }
