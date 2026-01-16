@@ -30,11 +30,11 @@ Para poder generar un proyecto de raylib es necesario realizar los siguientes pa
 
 ``` bash
     # Genera el proyecto
-    cmake --build .
+    cmake --build build
 ```
 
 - Para ejecutar el programa, se debe ejecutar el archivo .exe generado con el siguiente comando
 
-``` bash
+``` shell
     .\Debug\MiJuegoRaylib.exe
 ```
