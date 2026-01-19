@@ -17,7 +17,7 @@ int main(void) {
     }
 
     // 4. Desinicialización
-    // Hola - cambio 2 de prueba
+    // Hola - cambio 2 de prueba - 3
     CloseWindow();
     return 0;
 }
