@@ -5,9 +5,9 @@ rm -rf build
 
 # Crear y entrar
 mkdir build
-cd build
+cd build || exit
 
 # Ejecutar CMake
-cmake ..
+cmake cmake ..
 
 echo "Configuración completada."

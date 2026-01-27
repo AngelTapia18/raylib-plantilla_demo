@@ -1,6 +1,6 @@
 #include "raylib.h"
 
-int main(void) {
+int main() {
     // 1. Inicialización
     InitWindow(800, 450, "Mi Proyecto con Raylib");
     SetTargetFPS(60);
